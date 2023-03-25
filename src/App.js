@@ -6,14 +6,16 @@ import Form from "./components/Form";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Popup from "./components/Popup";
-import { getData } from "./store/data/data.slice";
+import { getData, setLoading } from "./store/data/data.slice";
 
 function App() {
   const { loading, isFormOpen } = useSelector((state) => state.data);
   const dispatch = useDispatch();
 
   useEffect(() => {
+    setLoading("pending");
     dispatch(getData());
+    setTimeout(() => setLoading("idle"), 3000);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

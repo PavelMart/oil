@@ -29,31 +29,38 @@ const Header = () => {
   };
 
   return (
-    <section className="hero-section home full" style={{ backgroundImage: `url('${slides[slideNumber]}')` }}>
-      <div className="header-wrap">
-        <header className="header">
-          <nav className="navbar navbar-expand-lg">
-            <Logo type={"mobile"} />
-            <Logo type={"desktop"} />
-            <NavbarToggler />
-            <Navbar />
-          </nav>
-        </header>
-        <div className="wrap">
-          <div className="container">
-            <div className="inner-wrap">
-              <div className="content-column">
-                <h1 className="title">{promoTitle}</h1>
-                <h4 className="subtitle">{promoText}</h4>
-                <div className="buttons-wrap">
-                  <RegisterBtn />
+    <>
+      <div style={{ display: "none" }}>
+        <img src="slide_1" alt="" />
+        <img src="slide_2" alt="" />
+        <img src="slide_3" alt="" />
+      </div>
+      <section className="hero-section home full" style={{ backgroundImage: `url('${slides[slideNumber]}')` }}>
+        <div className="header-wrap">
+          <header className="header">
+            <nav className="navbar navbar-expand-lg">
+              <Logo type={"mobile"} />
+              <Logo type={"desktop"} />
+              <NavbarToggler />
+              <Navbar />
+            </nav>
+          </header>
+          <div className="wrap">
+            <div className="container">
+              <div className="inner-wrap">
+                <div className="content-column">
+                  <h1 className="title">{promoTitle}</h1>
+                  <h4 className="subtitle">{promoText}</h4>
+                  <div className="buttons-wrap">
+                    <RegisterBtn />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 
