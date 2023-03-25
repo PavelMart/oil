@@ -30,7 +30,7 @@ const Header = () => {
 
   return (
     <>
-      <div style={{ display: "none" }}>
+      <div style={{ visibility: "hidden" }}>
         <img src="slide_1" alt="" />
         <img src="slide_2" alt="" />
         <img src="slide_3" alt="" />
