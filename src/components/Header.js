@@ -16,7 +16,7 @@ const Header = () => {
   } = useSelector((state) => state.data);
 
   useEffect(() => {
-    setInterval(nextSlide, 5000);
+    document.addEventListener("DOMContentLoaded", () => setInterval(nextSlide, 5000));
   }, []);
 
   const [slideNumber, setSlideNumber] = useState(0);
@@ -30,11 +30,11 @@ const Header = () => {
 
   return (
     <>
-      <div style={{ visibility: "hidden", height: 0 }}>
+      {/* <div style={{ visibility: "hidden", height: 0 }}>
         <img src={slide_1} alt="" />
         <img src={slide_2} alt="" />
         <img src={slide_3} alt="" />
-      </div>
+      </div> */}
       <section className="hero-section home full" style={{ backgroundImage: `url('${slides[slideNumber]}')` }}>
         <div className="header-wrap">
           <header className="header">
