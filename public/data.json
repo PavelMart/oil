@@ -1,0 +1,69 @@
+{
+  "menu": {
+    "home": "Home",
+    "features": "Features",
+    "aboutUs": "About-Us",
+    "partners": "Partners"
+  },
+  "contactUsButton": "Contact us",
+  "promoTitle": "Transform your business with innovative solutions and trusted partnerships",
+  "promoText": "At Turon Global Resource, we bring a wealth of expertise and a commitment to transparency to every transaction. Our trusted approach and secure logistics services make trading easy and efficient, while our tailored solutions help you achieve your business goals. Partner with us and experience the difference a trusted trading partner can make.",
+  "sections": {
+    "features": {
+      "title": "Explore our features",
+      "featuresList": {
+        "first": {
+          "title": "Fast – Easy – Secure Payments",
+          "text": "We make your withdrawals instantly and secure. Check out our payment methods."
+        },
+        "second": {
+          "title": "Best Odds and Highest Liquidity",
+          "text": "We focus on bringing you the best odds and best sportsbook choices for you."
+        },
+        "third": {
+          "title": "Easy Account Setup",
+          "text": "We will make it easy for you. Just click Register and let us do the rest."
+        }
+      }
+    },
+    "aboutUs": {
+      "title": "About Us",
+      "titleText": "We are proud to announce that we are the exclusive partners of some of the most reputable and highly-regarded betting platforms in the industry.",
+      "firstParagraph": "At our bet broker service, we work closely with different partners to provide our clients with the most exclusive offers and opportunities to place their bets.",
+      "secondParagraph": "Our partnerships allows us to offer our clients the highest betting limits and the best prices available in the market. As a result, you can always be sure that you are getting the most out of your betting experience with us.",
+      "thirdParagraph": "We at Real Pro Bet understand the importance of trust and reliability when it comes to betting, which is why we only work with licensed bookmakers who do not limit or ban winning players. This ensures that our clients can place their bets with confidence, knowing that they are receiving fair and transparent services. So, whether you are a seasoned bettor or just starting out, our bet broker service and exclusive partnerships with the best bookies on the market will give you the ultimate betting experience. Trust us to provide you with the most exclusive offers and opportunities to win big."
+    },
+    "partners": {
+      "title": "Our partners"
+    },
+    "getStarted": {
+      "title": "Ready to get started?",
+      "text": "Create your profile. It's free."
+    }
+  },
+  "copyrightYear": "2023",
+  "copyrightText": "© Real Pro Bet, LLC. ALL Rights Reserved.",
+  "form": {
+    "title": "Create account",
+    "firstNamePlaseholder": "First Name",
+    "lastNamePlaceholder": "Last Name",
+    "telegramPlaceholder": "Telegram (optional)",
+    "platforms": "Choose platforms",
+    "agreement": {
+      "one": "I agree to Real Pro Bet's",
+      "termsOfServiceLink": "terms of service",
+      "three": "and",
+      "privacyPolicyLink": "privacy policy"
+    },
+    "sendButton": "Sign Up",
+    "confirmationButton": "Ok",
+    "success": {
+      "title": "Success",
+      "text": "We've just sent you an activation email. Please check your email and click the link in the email we sent. If you don't receive it momentarily, please check your spam folder to."
+    },
+    "error": {
+      "title": "Somethink went wrong",
+      "text": "Please, try it again later"
+    }
+  }
+}

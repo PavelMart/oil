@@ -1,0 +1,14 @@
+<svg width="1440" height="2207" xmlns="http://www.w3.org/2000/svg" stroke="null" style="vector-effect: non-scaling-stroke;">
+ <defs stroke="null" style="vector-effect: non-scaling-stroke;">
+  <linearGradient stroke="null" style="vector-effect: non-scaling-stroke;" id="perfect-solution-section-gradient-1" y2="100%" y1="0%" x1="0%">
+   <stop stroke="null" style="vector-effect: non-scaling-stroke;" offset="0%" stop-color="#2439C4"/>
+   <stop stroke="null" style="vector-effect: non-scaling-stroke;" offset="100%" stop-color="#00A4FB"/>
+  </linearGradient>
+ </defs>
+ <g stroke="null">
+  <rect stroke="null" fill="none" id="canvas_background" height="2209" width="1442" y="-1" x="-1"/>
+ </g>
+ <g stroke="null">
+  <path stroke="null" id="svg_1" fill-rule="evenodd" fill="url(#perfect-solution-section-gradient-1)" d="m-0.396167,2217.259532l-4.603791,-1081.642877l0,-1076.224662c331.42569,27.332876 1001.763398,94.859016 1450.352698,-59.273926l0,2217.141465c-241.725446,0 -483.450893,0 -725.176349,0c-241.725446,0 -478.847112,0 -720.572558,0z"/>
+ </g>
+</svg>
