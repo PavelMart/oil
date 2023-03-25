@@ -30,10 +30,10 @@ const Header = () => {
 
   return (
     <>
-      <div style={{ visibility: "hidden" }}>
-        <img src="slide_1" alt="" />
-        <img src="slide_2" alt="" />
-        <img src="slide_3" alt="" />
+      <div style={{ visibility: "hidden", height: 0 }}>
+        <img src={slide_1} alt="" />
+        <img src={slide_2} alt="" />
+        <img src={slide_3} alt="" />
       </div>
       <section className="hero-section home full" style={{ backgroundImage: `url('${slides[slideNumber]}')` }}>
         <div className="header-wrap">
