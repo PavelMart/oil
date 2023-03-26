@@ -11,6 +11,7 @@ import slide_3 from "./../assets/images/background/background_slide_3.jpg";
 const slides = [slide_1, slide_2, slide_3];
 
 const Header = () => {
+  const [isLoaded, setIsLoaded] = useState(false);
   const {
     data: { promoTitle, promoText },
   } = useSelector((state) => state.data);
@@ -18,9 +19,18 @@ const Header = () => {
   const [slideNumber, setSlideNumber] = useState(0);
 
   useEffect(() => {
-    const interval = setInterval(nextSlide, 4000);
-    return () => clearInterval(interval);
+    slides.forEach((picture) => {
+      const img = new Image();
+      img.src = picture;
+    });
+    setIsLoaded(true);
   }, []);
+
+  useEffect(() => {
+    let interval;
+    if (isLoaded) interval = setInterval(nextSlide, 4000);
+    return () => clearInterval(interval);
+  }, [isLoaded]);
 
   const nextSlide = () => {
     setSlideNumber((prev) => {
