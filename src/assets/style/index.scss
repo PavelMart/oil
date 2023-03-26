@@ -2336,7 +2336,7 @@ select.form-control:focus::-ms-value {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
-  transition: background 1s ease-in-out 0.1s;
+  transition: background 1s ease-in-out 0.5s;
 }
 @media (min-width: 768px) {
   .hero-section.home .img-column {
