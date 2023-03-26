@@ -13,7 +13,7 @@ const Logo = ({ type, className }) => {
       break;
   }
   return (
-    <a className={["navbar-brand", type, className].join(" ")} href="/">
+    <a className={["navbar-brand", type, className].join(" ")} href="#">
       <img src={src} alt={`${type} logo`} />
     </a>
   );

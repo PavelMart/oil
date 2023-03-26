@@ -25,7 +25,7 @@ function App() {
 
   return (
     <ErrorBoundary>
-      <div className="App" onClick={closeMenu}>
+      <div className="App" onClick={closeMenu} style={{ fontFamily: "FilsonPro" }}>
         {loading === "pending" ? (
           <div className="loading" id="loading" />
         ) : (

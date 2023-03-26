@@ -1,37 +1,46 @@
 {
-  "menu": {
-    "home": "Home",
-    "features": "Features",
-    "aboutUs": "About-Us",
-    "partners": "Partners"
-  },
+  "menu": [
+    { "title": "Our mission", "link": "our-mission" },
+    { "title": "Features", "link": "features" },
+    { "title": "About us", "link": "about-us" },
+    { "title": "Contacts", "link": "contacts" }
+  ],
   "contactUsButton": "Contact us",
   "promoTitle": "Transform your business with innovative solutions and trusted partnerships",
   "promoText": "At Turon Global Resource, we bring a wealth of expertise and a commitment to transparency to every transaction. Our trusted approach and secure logistics services make trading easy and efficient, while our tailored solutions help you achieve your business goals. Partner with us and experience the difference a trusted trading partner can make.",
   "sections": {
+    "ourMission": {
+      "title": "Our mission",
+      "text": [
+        "Our mission is to be the premier trading partner for businesses around the world. We strive to provide our clients with the best possible service and expertise to help them achieve their business goals. We believe that success is built on trust, transparency, and collaboration, and we are committed to upholding these values in everything we do."
+      ]
+    },
     "features": {
-      "title": "Explore our features",
-      "featuresList": {
-        "first": {
-          "title": "Fast – Easy – Secure Payments",
-          "text": "We make your withdrawals instantly and secure. Check out our payment methods."
+      "title": "Features",
+      "featuresList": [
+        {
+          "imageSrc": "./assets/images/features/feature-1.jpg",
+          "title": "Sourcing Refined Products",
+          "text": "Thexia Energy & Resources focuses on strong relationship with refineries, industry majors and commodity traders to source refined products with the highest quality standards and provide efficient and on-time lifting solutions."
         },
-        "second": {
-          "title": "Best Odds and Highest Liquidity",
-          "text": "We focus on bringing you the best odds and best sportsbook choices for you."
+        {
+          "imageSrc": "./assets/images/features/feature-2.jpg",
+          "title": "Trading & Supply",
+          "text": "Trading & Supply is at the core of our business. Our team provides customers with a full range of refined products. We follow the global refined products markets closely to identify trading opportunities, delivering quality properties and specifications, whilst adhering to strict timelines."
         },
-        "third": {
-          "title": "Easy Account Setup",
-          "text": "We will make it easy for you. Just click Register and let us do the rest."
+        {
+          "imageSrc": "./assets/images/features/feature-3.jpg",
+          "title": "Risk Management",
+          "text": "Managing price and currency risks is critical to achieving commercial success. Thexia Energy & Resources systematically manages price risk by closely monitoring and performing daily controls and analysis regarding price risk identification and measurement."
         }
-      }
+      ]
     },
     "aboutUs": {
       "title": "About Us",
-      "titleText": "We are proud to announce that we are the exclusive partners of some of the most reputable and highly-regarded betting platforms in the industry.",
-      "firstParagraph": "At our bet broker service, we work closely with different partners to provide our clients with the most exclusive offers and opportunities to place their bets.",
-      "secondParagraph": "Our partnerships allows us to offer our clients the highest betting limits and the best prices available in the market. As a result, you can always be sure that you are getting the most out of your betting experience with us.",
-      "thirdParagraph": "We at Real Pro Bet understand the importance of trust and reliability when it comes to betting, which is why we only work with licensed bookmakers who do not limit or ban winning players. This ensures that our clients can place their bets with confidence, knowing that they are receiving fair and transparent services. So, whether you are a seasoned bettor or just starting out, our bet broker service and exclusive partnerships with the best bookies on the market will give you the ultimate betting experience. Trust us to provide you with the most exclusive offers and opportunities to win big."
+      "text": [
+        "Turon Global Resource is a leading trading company that specializes in the sale of commodities such as agricultural raw materials, fuels, ores, metals, and much more. With years of experience in the industry, we have built a reputation for providing exceptional service and expertise to our clients. Our team is comprised of industry experts who understand the complexities of trading and can help you navigate the market to achieve your business goals.",
+        "We are your partner for success in the world of trading. Our deep industry expertise, cutting-edge technology, and transparent approach make us the trusted choice for businesses around the world. Whether you're buying or selling commodities, we have the resources and knowledge to help you achieve your goals."
+      ]
     },
     "partners": {
       "title": "Our partners"
@@ -42,7 +51,7 @@
     }
   },
   "copyrightYear": "2023",
-  "copyrightText": "© Real Pro Bet, LLC. ALL Rights Reserved.",
+  "copyrightText": "© TURON Global Resource, LLC. ALL Rights Reserved.",
   "form": {
     "title": "Create account",
     "firstNamePlaseholder": "First Name",

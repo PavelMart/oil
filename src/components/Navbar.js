@@ -3,9 +3,7 @@ import { useSelector } from "react-redux";
 
 const Navbar = () => {
   const {
-    data: {
-      menu: { home, features, aboutUs, partners },
-    },
+    data: { menu },
   } = useSelector((state) => state.data);
 
   const closeMenu = (e) => {
@@ -15,26 +13,13 @@ const Navbar = () => {
   return (
     <div className={["collapse", "navbar-collapse"].join(" ")} id="navbarSupportedContent">
       <ul className="navbar-nav">
-        <li className="nav-item">
-          <a className="nav-link" href="/" id="navbarFeaturesMenu" role="button">
-            {home}
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#features" onClick={closeMenu}>
-            {features}
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#about-us" onClick={closeMenu}>
-            {aboutUs}
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#partners" onClick={closeMenu}>
-            {partners}
-          </a>
-        </li>
+        {menu.map((item) => (
+          <li key={item.title} className="nav-item" onClick={closeMenu}>
+            <a className="nav-link" href={`#${item.link}`} id="navbarFeaturesMenu" role="button">
+              {item.title}
+            </a>
+          </li>
+        ))}
       </ul>
     </div>
   );

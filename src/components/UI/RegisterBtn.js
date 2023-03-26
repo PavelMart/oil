@@ -1,15 +1,10 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { openFormPopup } from "../../store/data/data.slice";
 
-const RegisterBtn = () => {
-  const { contactUsButton } = useSelector((state) => state.data.data);
-  const dispatch = useDispatch();
-
+const RegisterBtn = ({ link, children }) => {
   return (
-    <button id="register" className="btn btn-red" onClick={() => dispatch(openFormPopup())}>
-      {contactUsButton}
-    </button>
+    <a href={link} id="register" className="btn btn-red">
+      {children}
+    </a>
   );
 };
 

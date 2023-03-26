@@ -15,11 +15,12 @@ const Header = () => {
     data: { promoTitle, promoText },
   } = useSelector((state) => state.data);
 
-  useEffect(() => {
-    document.addEventListener("DOMContentLoaded", () => setInterval(nextSlide, 5000));
-  }, []);
-
   const [slideNumber, setSlideNumber] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(nextSlide, 4000);
+    return () => clearInterval(interval);
+  }, []);
 
   const nextSlide = () => {
     setSlideNumber((prev) => {
@@ -30,11 +31,6 @@ const Header = () => {
 
   return (
     <>
-      {/* <div style={{ visibility: "hidden", height: 0 }}>
-        <img src={slide_1} alt="" />
-        <img src={slide_2} alt="" />
-        <img src={slide_3} alt="" />
-      </div> */}
       <section className="hero-section home full" style={{ backgroundImage: `url('${slides[slideNumber]}')` }}>
         <div className="header-wrap">
           <header className="header">
@@ -52,7 +48,7 @@ const Header = () => {
                   <h1 className="title">{promoTitle}</h1>
                   <h4 className="subtitle">{promoText}</h4>
                   <div className="buttons-wrap">
-                    <RegisterBtn />
+                    <RegisterBtn link="#contacts">Contact us</RegisterBtn>
                   </div>
                 </div>
               </div>
